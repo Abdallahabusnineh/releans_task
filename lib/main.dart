@@ -11,11 +11,15 @@ import 'core/utils/bloc_observer.dart';
 import 'firebase_options.dart';
 
 void main() async {
-  runApp(const MyApp());
-  Bloc.observer = MyBlocObserver();
+
+  WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+
+  runApp(const MyApp());
+  Bloc.observer = MyBlocObserver();
+
 }
 
 class MyApp extends StatelessWidget {
