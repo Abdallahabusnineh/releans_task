@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "819380946773",
+    "project_id": "releanstask",
+    "storage_bucket": "releanstask.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819380946773:android:96a0c9bbe8bd057f0b91dc",
+        "android_client_info": {
+          "package_name": "com.example.releans_task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq2F-2xDRR7SCbR_RkiWTpKbrSH_UQ_nI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
